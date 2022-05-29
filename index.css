@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+
+}
+
+.middle-box {
+    width: 90%;
+    height: 80vh;
+    background-color: silver;
+    margin: auto;
+    margin-top: 60px;
+    float: right;
+}
+
+.image-box {
+    height: 90vh;
+    width: 40%;
+    float: left;
+    background-color: aqua;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    background-image: url('logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-section {
+    width: 600px;
+    height: 463px;
+    background-color: whitesmoke;
+    float: right;
+    word-wrap: break-word;
+}
+.text-section p{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+}
+.text-section h2{
+    position: relative;
+    top: 40px;
+}
+.service {
+    padding-top: 80px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.text-section .left{
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 85px;
+    float: left;
+    left: 30px;
+}
+.text-section .right{
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 85px;
+    float: right;
+    right: 50px;
+}
+.left h3{
+    
+}
+.left p{
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+.right p{
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+.navbar {
+    float: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content:space-evenly; */
+    line-height: 40px;
+    top: 40px;
+    left: 0%;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: block;
+    padding: 10px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
